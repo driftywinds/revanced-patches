@@ -1,6 +1,6 @@
 ## 🧩 ReVanced Patches
 
-ReVanced Extended Patches
+ReVanced Extended Patches.
 
 ## 📋 List of patches in this repository
 
