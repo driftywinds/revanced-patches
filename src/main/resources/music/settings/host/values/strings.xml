@@ -372,6 +372,9 @@ Info:
 
     <string name="gms_core_settings_title">Open GmsCore</string>
     <string name="gms_core_settings_summary">Enable cloud messaging to receive notifications.</string>
+    <string name="revanced_gms_show_dialog_title">Show optimization dialog for GMSCore</string>
+    <string name="revanced_gms_show_dialog_summary">Displays the optimization dialog for GMSCore at each application startup.</string>
+    <string name="gms_core_dialog_dismiss_text">Don\'t show again</string>
     <string name="gms_core_toast_not_installed_message">GmsCore is not installed. Install it.</string>
     <string name="gms_core_dialog_title">Action needed</string>
     <string name="gms_core_dialog_not_whitelisted_not_allowed_in_background_message">"GmsCore does not have permission to run in the background.

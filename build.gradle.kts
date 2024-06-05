@@ -17,8 +17,8 @@ repositories {
         // A repository must be speficied for some reason. "registry" is a dummy.
         url = uri("https://maven.pkg.github.com/revanced/registry")
         credentials {
-            username = project.findProperty("gpr.user") as String? ?: System.getenv("GITHUB_ACTOR")
-            password = project.findProperty("gpr.key") as String? ?: System.getenv("GITHUB_TOKEN")
+            username = project.findProperty("gpr.user") as String? ?: System.getenv("GH_ACTOR")
+            password = project.findProperty("gpr.key") as String? ?: System.getenv("GH_TOKEN")
         }
     }
 }
@@ -99,10 +99,10 @@ publishing {
     repositories {
         maven {
             name = "GitHubPackages"
-            url = uri("https://maven.pkg.github.com/anddea/revanced-patches")
+            url = uri("https://maven.pkg.github.com/driftywinds/revanced-patches")
             credentials {
-                username = System.getenv("GITHUB_ACTOR")
-                password = System.getenv("GITHUB_TOKEN")
+                username = System.getenv("GH_ACTOR")
+                password = System.getenv("GH_TOKEN")
             }
         }
     }

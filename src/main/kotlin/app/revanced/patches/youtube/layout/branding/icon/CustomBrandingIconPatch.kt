@@ -29,6 +29,7 @@ object CustomBrandingIconPatch : BaseResourcePatch(
         "MMT" to "mmt",
         DEFAULT_ICON_KEY to "revancify_blue",
         "Revancify Red" to "revancify_red",
+        "Revancify Yellow" to "revancify_yellow",
         "Vanced Black" to "vanced_black",
         "Vanced Light" to "vanced_light"
     )
@@ -141,9 +142,18 @@ object CustomBrandingIconPatch : BaseResourcePatch(
 
                 val splashResourceGroups: Array<Array<ResourceGroup>> = when (appIconValue) {
                     "mmt" -> arrayOf(arrayOf(ResourceGroup("drawable", "avd_anim.xml", *drawableAnimResourceFileNames))
-                        .plus(drawableDirectories.map { ResourceGroup(it, *drawableIconResourceFileNames) }))
-                    "revancify_blue", "revancify_red" -> arrayOf(drawableDirectories.map { ResourceGroup(it, *drawableIconResourceFileNamesRevancify) }.toTypedArray())
-                    else -> arrayOf(drawableDirectories.map { ResourceGroup(it, *drawableIconResourceFileNames) }.toTypedArray())
+                        .plus(drawableDirectories.map { ResourceGroup(it, *drawableIconResourceFileNames) })
+                    )
+
+                    "revancify_blue", "revancify_red", "revancify_yellow" -> arrayOf(drawableDirectories.map {
+                        ResourceGroup(
+                            it,
+                            *drawableIconResourceFileNamesRevancify
+                        )
+                    }.toTypedArray())
+
+                    else -> arrayOf(drawableDirectories.map { ResourceGroup(it, *drawableIconResourceFileNames) }
+                        .toTypedArray())
                 }
 
                 splashResourceGroups.forEach { group ->
@@ -152,7 +162,7 @@ object CustomBrandingIconPatch : BaseResourcePatch(
 
                 // monochrome
                 val monochromeIcon = ResourceGroup("drawable", "adaptive_monochrome_ic_youtube_launcher.xml")
-                if (appIconValue in listOf("mmt", "revancify_blue", "revancify_red")) {
+                if (appIconValue in listOf("mmt", "revancify_blue", "revancify_red", "revancify_yellow")) {
                     context.copyResources("$resourcePath/monochrome", monochromeIcon)
                 }
 

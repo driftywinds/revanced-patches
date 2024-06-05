@@ -1,3 +1,49 @@
+# [2.226.0-dev.5](https://github.com/anddea/revanced-patches/compare/v2.226.0-dev.4...v2.226.0-dev.5) (2024-06-05)
+
+
+### Features
+
+* **GmsCore support:** Add `Don't show again` option for battery optimization dialog ([3069354](https://github.com/anddea/revanced-patches/commit/3069354e5e736dbbebc1a85cdde2762a436f1338))
+
+# [2.226.0-dev.4](https://github.com/anddea/revanced-patches/compare/v2.226.0-dev.3...v2.226.0-dev.4) (2024-06-01)
+
+
+### Bug Fixes
+
+* **YouTube - Custom branding icon:** Add `Revancify Yellow` to patch options ([aea7060](https://github.com/anddea/revanced-patches/commit/aea70604ae326ec86ddec5b37d03a06673292545))
+
+# [2.226.0-dev.3](https://github.com/anddea/revanced-patches/compare/v2.226.0-dev.2...v2.226.0-dev.3) (2024-06-01)
+
+
+### Features
+
+* **Custom branding icon:** Add `Revancify Yellow` icon ([#533](https://github.com/anddea/revanced-patches/issues/533)) ([d3bdd97](https://github.com/anddea/revanced-patches/commit/d3bdd97c8afc205fca85627740d3da498afb2121))
+* **YouTube - Overlay buttons:** Add content descriptions to overlay buttons for improved accessibility ([4d61417](https://github.com/anddea/revanced-patches/commit/4d6141776c6255bf4fc31173dbedd4fe9cec188f))
+* **YouTube Music:** Add `Visual preferences icons` ([8672b10](https://github.com/anddea/revanced-patches/commit/8672b1001a3ccd34102261738cdeb031f97cf572))
+
+# [2.226.0-dev.2](https://github.com/anddea/revanced-patches/compare/v2.226.0-dev.1...v2.226.0-dev.2) (2024-05-31)
+
+
+### Bug Fixes
+
+* **YouTube - Visual preferences icons:** Typo in QUIC ([409e283](https://github.com/anddea/revanced-patches/commit/409e2831b3c1ab9db1023e5f6257d4d4d327a592))
+
+# [2.226.0-dev.1](https://github.com/anddea/revanced-patches/compare/v2.225.0...v2.226.0-dev.1) (2024-05-31)
+
+
+### Bug Fixes
+
+* **YouTube - Settings:** `CairoSettings` is applied due to A/B testing ([bad0f92](https://github.com/anddea/revanced-patches/commit/bad0f929853890eaac7a21a4faaad5cf43077f74))
+* **YouTube - Spoof client:** Player gestures not working when spoofing with `Android VR` client ([0cdc4f3](https://github.com/anddea/revanced-patches/commit/0cdc4f33c98cc16f5a302f2ca46a93434165bfd3))
+
+
+### Features
+
+* **YouTube - Spoof client:** Add `Show in Stats for nerds` setting ([b287a61](https://github.com/anddea/revanced-patches/commit/b287a61e480027689ea2ef792a84dcf1c9b002ab))
+* **YouTube - Spoof client:** Selectively spoof client for general video / livestreams / Shorts / fallback (unplayable video) ([d92de62](https://github.com/anddea/revanced-patches/commit/d92de62fc05ba4df1343ddf270e78bd3f4e53e58))
+* **YouTube Music:** Add support versions `7.02.52` ~ `7.03.51` ([40df716](https://github.com/anddea/revanced-patches/commit/40df7164f7e465d03744b3a7e24fd8f9f1ac3584))
+* **YouTube:** Remove `Spoof format stream data` patch ([35aeec3](https://github.com/anddea/revanced-patches/commit/35aeec3e12c8adb64dcfe1396980b9722cf4ccaa))
+
 # [2.225.0](https://github.com/anddea/revanced-patches/compare/v2.224.0...v2.225.0) (2024-05-29)
 
 
